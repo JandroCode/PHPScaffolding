@@ -3,9 +3,13 @@
 
 // requires
 require_once 'controllers/LoginController.php';
+require_once 'controllers/AdminController.php';
+require_once 'controllers/UsuarioController.php';
 
 // instancias
 $loginController = new LoginController();
+$adminController = new AdminController();
+$usuarioController = new UsuarioController();
 
 $url = $_SERVER['REQUEST_URI'];
 $dominio = '/mazer';
@@ -16,7 +20,11 @@ switch ($url) {
         break;
 
     case $dominio.'/admin':
-        require_once 'views/admin.php';
+        $adminController ->index();
+        break;
+
+    case $dominio.'/usuarios':
+        $usuarioController->index();
         break;
 
     case $dominio.'/index.php':
