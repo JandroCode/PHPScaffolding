@@ -5,16 +5,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title></title>
-
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="mazer/css/bootstrap.css">
-    <link rel="stylesheet" href="mazer/vendors/bootstrap-icons/bootstrap-icons.css">
-    <link rel="stylesheet" href="mazer/css/app.css">
-    <link rel="stylesheet" href="mazer/css/pages/auth.css">
-    <link rel="stylesheet" href="css/site.css">
-    <style>
-     
-    </style>
+    <link rel="stylesheet" href="../mazer/css/bootstrap.css">
+    <link rel="stylesheet" href="../mazer/vendors/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="../mazer/css/app.css">
+    <link rel="stylesheet" href="../mazer/css/pages/auth.css">
+    <link rel="stylesheet" href="../css/site.css">
 </head>
 
 <body>
@@ -24,7 +20,7 @@
             <div class="col-lg-6 col-12">
                 <div id="auth-left">
                     <div class="auth-logo">
-                        <a href="index.html"><img src="mazer/images/logo/logoF.png" alt="Logo" style="height: 4rem;"></a>
+                        <a href="index.html"><img src="../mazer/images/logo/logoF.png" alt="Logo" style="height: 4rem;"></a>
                     </div>
                     <h1 class="auth-title">Acceso</h1>
 

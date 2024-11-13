@@ -1,3 +1,6 @@
 <?php
 
-require_once 'login.html';
+
+// Requires
+
+require_once 'router/router.php';
